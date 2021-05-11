@@ -7,30 +7,30 @@
   "license": "MIT",
   "scripts": {
     "check-types": "tsc",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --color --progress",
+    "dev": "cross-env NODE_ENV=development webpack serve --color --progress",
     "build": "cross-env NODE_ENV=production webpack --color --progress",
     "start": "serve dist"
   },
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
-    "@babel/preset-react": "^7.7.4",
-    "@babel/preset-typescript": "^7.7.7",
-    "@types/node": "^12.12.5",
-    "@types/react": "^16.9.11",
-    "@types/react-dom": "^16.9.3",
-    "babel-loader": "^8.0.6",
-    "cross-env": "^6.0.3",
-    "html-webpack-plugin": "^3.2.0",
-    "serve": "^11.3.0",
-    "terser-webpack-plugin": "^2.3.2",
-    "typescript": "^3.7.4",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/node": "^15.0.2",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.4",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.3.1",
+    "serve": "^11.3.2",
+    "terser-webpack-plugin": "^5.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
